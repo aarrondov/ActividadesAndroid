@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3">
+
+        <ImageView
+            android:id="@+id/imageViewHand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saludo"
+            android:layout_centerInParent="true"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esta es tu primera Splash Screen"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_below="@id/imageViewHand"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
